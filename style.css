@@ -22,16 +22,20 @@ header{
     text-decoration: none;
 }
 .info-header ul {
-    text-align: right;
+    float: right;
     margin-right:40px;
+    padding-top: 40px;
 }
 .logo-esquerda {
-    padding-right: 120px;
-}
+    float: left;
+    margin-left: 40px;
+    }
 .info-header ul li{
-    /*padding-right: 40px;*/
     padding-left: 40px;
+    color: #6c757d;
+    font-size: 18px;
+    font-family: 'Montserrat', sans-serif;
+    }
+.corpo{
+    clear: both;
 }
-/*.item-direita{
-    text-align: right;
-}*/
