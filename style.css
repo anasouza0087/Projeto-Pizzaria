@@ -1,0 +1,37 @@
+header{
+    display: block;
+    margin: 0 auto;
+}
+.rede-social {
+    background-color: black;
+    height: 50px;
+}
+.rede-social ul{
+    text-align: right;
+    color: white;
+    margin-right: 40px;
+    padding-top: 15px;
+}
+.rede-social ul li{
+    display: inline;
+    text-decoration: none;
+    padding-left: 18px;
+}
+.info-header ul li{
+    display: inline;
+    text-decoration: none;
+}
+.info-header ul {
+    text-align: right;
+    margin-right:40px;
+}
+.logo-esquerda {
+    padding-right: 120px;
+}
+.info-header ul li{
+    /*padding-right: 40px;*/
+    padding-left: 40px;
+}
+/*.item-direita{
+    text-align: right;
+}*/
