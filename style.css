@@ -38,4 +38,6 @@ header{
     }
 .corpo{
     clear: both;
+    text-align: center;
+    background-color: #e9ecef;
 }
