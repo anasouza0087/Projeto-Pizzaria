@@ -34,7 +34,7 @@ header{
     }
 .info-header ul li{
     padding-left: 40px;
-    color: #6c757d;
+    color: #93291E;
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
     }
@@ -63,8 +63,29 @@ header{
     padding-bottom: 20px;
 }
 #carouselExampleSlidesOnly{
-    padding-top: 40px;
+    padding-top: 60px;
 }
 .carousel-item{
+    text-align: center;
+}
+#carouselExampleSlidesOnly p {
+    text-align: center;
+    max-width: 50%;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    font-style: italic;
+    font-weight: bold;
+    color: #212529;
+}
+#carouselExampleSlidesOnly h3{
+color: #343a40;
+}
+.rodape {
+    background-color: black; 
+    color: white;
+}
+.rodape p {
+    margin: 0 auto;
     text-align: center;
 }
