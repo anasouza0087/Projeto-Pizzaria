@@ -1,3 +1,10 @@
+a:link {
+    text-decoration: none;
+    }
+a:visited {
+    text-decoration: none;
+    color: #93291E;
+}
 header{
     display: block;
     margin: 0 auto;
@@ -114,7 +121,19 @@ color: #343a40;
     background-color: white;
     width: fit-content;
     margin: 0 auto;
-}    
+} 
+.visita {
+    margin-top: 140px;
+    text-align: center;
+}  
+.corpo-visita {
+    background-color: #E9ECEF;
+}
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 
 
 
