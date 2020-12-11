@@ -13,9 +13,12 @@ header{
     background-color: black;
     height: 50px;
 }
+.rede-social ul li a {
+    text-decoration: none;
+    color: white;
+}
 .rede-social ul{
     text-align: right;
-    color: white;
     margin-right: 40px;
     padding-top: 15px;
 }
@@ -162,6 +165,24 @@ iframe {
     height: 160px;
     padding: 12px;
    }    
+.forms {
+       width: fit-content;
+       margin: 0 auto; 
+   }
+.delivery {
+    padding-top: 120px;
+    text-align: left;
+}
+.delivery-corpo {
+    background-color: #E9ECEF;
+}
+.delivery h3 {
+    padding-top: 80px;
+    padding-bottom: 20px;
+    text-align: center;
+}   
+
+
    
 
 

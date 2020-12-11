@@ -9,7 +9,7 @@
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <title>Cardápio</title>
+    <title>Delivery</title>
 </head>
 
 <body>
@@ -17,29 +17,55 @@
         <section class="topo">
             <div class="rede-social">
                 <ul>
-                    <li><i class="fa fa-facebook-official fa-lg" aria-hidden="true"></i></li>
-                    <li><i class="fa fa-instagram fa-lg" aria-hidden="true"></i></li>
-                    <li><i class="fa fa-telegram fa-lg" aria-hidden="true"></i></li>
+                    <li><a href="https://www.facebook.com" target="_blank"><i class="fa fa-facebook-official fa-lg"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.instagram.com" target="_blank"><i class="fa fa-instagram fa-lg"
+                                aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.telegram.com" target="_blank"><i class="fa fa-telegram fa-lg"
+                                aria-hidden="true"></i></a></li>
                 </ul>
             </div>
             <div class="info-header">
                 <div class="logo-esquerda">
-                    <img src="./img/logo2.png" alt="logo">
+                    <a href="index.html"><img src="./img/logo2.png" alt="logo">
+                    </a>
                 </div>
                 <ul>
                     <li class="item-direita"><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i>
                             Inicio</a></li>
                     <li class="item-direita"><a href="cardapio.html"><i class="fa fa-search" aria-hidden="true"></i>
                             Cardápio</a></li>
-                    <li class="item-direita"><a href="visita.html"><i class="fa fa-map-marker fa-4g" aria-hidden="true"></i> Venha nos
-                        visitar!</a></li>
+                    <li class="item-direita"><a href="visita.html"><i class="fa fa-map-marker fa-4g"
+                                aria-hidden="true"></i> Venha nos
+                            visitar!</a></li>
                     <li class="item-direita"><i class="fa fa-user-secret" aria-hidden="true"></i> Sobre Nós</li>
                 </ul>
             </div>
         </section>
     </header>
-    <section>
-
+    <section class="delivery">
+        <div class="delivery-corpo">
+            <h3>Faça seu pedido!</h3>
+            <div class="forms">
+                <form>
+                    <fieldset>
+                        <p><input type="text" placeholder="CEP" size="22"></p>
+                        <p><input type="text" placeholder="Logradouro" size="15">
+                            <input type="text" placeholder="Nº" size="1"></p>
+                        <p><input type="text" placeholder="Bairro" size="22"></p>
+                        <p><input type="tel" placeholder="Telefone" size="22"></p>
+                        <select name="Opções" id="Opções">
+                            <option value="opc">Selecione sua Pizza</option>
+                            <option value="Calabresa">Calabresa</option>
+                            <option value="Mussarela">Mussarela</option>
+                            <option value="Caipira">Caipira</option>
+                        </select>
+                        <p></p>
+                        <button>Pedir!</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>
     </section>
 </body>
 
